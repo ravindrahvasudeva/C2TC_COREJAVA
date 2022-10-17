@@ -1,7 +1,6 @@
-package Basics;
+package First;
 
-public class Increment {
-
+public class Incrementation {
 
 	public static void main(String[] args) {
 		int numA =5,numB=10,numC=0;
@@ -13,6 +12,3 @@ public class Increment {
 	}
 
 }
-
-
-
