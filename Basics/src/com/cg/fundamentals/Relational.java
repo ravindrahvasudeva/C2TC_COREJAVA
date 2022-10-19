@@ -1,4 +1,4 @@
-package First;
+package com.cg.fundamentals;
 import java.util.Random;
 
 public class Relational {

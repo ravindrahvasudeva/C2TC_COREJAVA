@@ -1,4 +1,4 @@
-package First;
+package com.cg.fundamentals;
 
 public class Scope {
 
