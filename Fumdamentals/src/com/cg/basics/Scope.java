@@ -1,7 +1,6 @@
-package com.cg.fundamentals;
+package com.cg.basics;
 
 public class Scope {
-
 	public static void main(String[] args) {
 		int outer=2;
 		{
@@ -13,5 +12,4 @@ public class Scope {
 		System.out.println(inner);
 
 	}
-
 }

@@ -1,4 +1,4 @@
-package com.cg.fundamentals;
+package com.cg.basics;
 
 public class Switch {
 
@@ -18,6 +18,5 @@ public class Switch {
 				System.out.println("invalid number");
 		}
 
-	}
-
-}}
+	}}
+}

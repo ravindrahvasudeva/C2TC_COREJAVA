@@ -1,7 +1,6 @@
-package com.cg.fundamentals;
+package com.cg.basics;
 
 public class Incrementation {
-
 	public static void main(String[] args) {
 		int numA =5,numB=10,numC=0;
 		numC=--numC+numB--;
@@ -10,5 +9,6 @@ public class Incrementation {
         System.out.println(numC);
 
 	}
+
 
 }

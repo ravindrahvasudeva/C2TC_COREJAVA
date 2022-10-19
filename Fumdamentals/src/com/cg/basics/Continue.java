@@ -1,7 +1,6 @@
-package com.cg.fundamentals;
+package com.cg.basics;
 
-public class ContinueOp {
-
+public class Continue {
 	public static void main(String[] args) {
 		int lim=10,sum=0;
 		for(int i=1;i<=lim;i++)

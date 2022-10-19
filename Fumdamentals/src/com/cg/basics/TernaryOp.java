@@ -1,7 +1,6 @@
-package com.cg.fundamentals;
+package com.cg.basics;
 
-public class TernaryOperator {
-
+public class TernaryOp {
 	public static void main(String[] args) {
 		int v=0;
 		System.out.println(v==1 ? "hello":"world");
@@ -9,5 +8,6 @@ public class TernaryOperator {
 	    System.out.println(v==1 ? "hello":"world");
 
 	}
+
 
 }

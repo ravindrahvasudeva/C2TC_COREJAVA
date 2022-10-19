@@ -1,8 +1,8 @@
-package com.cg.fundamentals;
+package com.cg.basics;
+
 import java.util.Random;
 
-public class Relational {
-
+public class RelationalOp {
 	public static void main(String[] args) {
 		Random rand =new Random();
 		int  i= rand.nextInt(100);
