@@ -18,7 +18,7 @@ package com.cg.demo1;
 			   System.out.println(rollno+" "+name+" "+college);
 		   }
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		StaticBlock sb1 = new StaticBlock(111,"ravi");
 		StaticBlock sb2 = new StaticBlock(112,"sinra");
 		sb1.display();
