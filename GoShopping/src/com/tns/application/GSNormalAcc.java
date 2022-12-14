@@ -1,22 +1,21 @@
 package com.tns.application;
-
 import com.tns.framework.NormalAcc;
+public class GSNormalAcc extends NormalAcc{
 
-public class GSNormalAcc  extends NormalAcc{
-	public static void main(String[] args) {
-	 public void bookProduct(float charges) {
-		
-	}
-}
-
-	public GSNormalAcc(float deliveryCharge) {
-		super(deliveryCharge);
+	public GSNormalAcc(int accNo, String accNm, float charges) {
+		super(accNo, accNm, charges);
 		// TODO Auto-generated constructor stub
+	}
+	
+	public void bookProduct(float charges)
+	{
+		System.out.println("dear Normal user,Your charges are"+charges+"with delivary charges is :"+getDelivaryCharges());
 	}
 
 	@Override
 	public String toString() {
-		return "GSNormalAcc [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
-				+ super.toString() + "]";
+		return "GSNormalAcc [accNo=" + accNo + ", accNm=" + accNm + ", charges=" + charges + ", toString()="
+				+ super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + "]";
 	}
+	
 }
