@@ -4,17 +4,19 @@ public abstract class BankAcc {
 	protected int accNo ;
 	protected String accNm; 
 	protected float accBal;
+	
+	
 	public BankAcc(int accNo, String accNm, float accBal) {
 		super();
 		this.accNo = accNo;
 		this.accNm = accNm;
 		this.accBal = accBal;
 	}
-	public int getaccNo()
+	public int getAccNo()
 	{
 		return accNo;
 	}
-	public String getaccNm()
+	public String getAccNm()
 	{
 		return accNm;
 	}
@@ -22,15 +24,17 @@ public abstract class BankAcc {
 	{
 		return accNm;
 	}
-	public float getaccBal()
+	public float getAccBal()
 	{
 		return accBal;
 	}
 	
-	public void withdraw(float accBal) {
+	public void withdraw(float accBal)
+	{
 		
 	}
-	public void deposite(float accBal) {
+	public void deposit(float accBal) 
+	{
 		
 	}
 	@Override
@@ -38,4 +42,6 @@ public abstract class BankAcc {
 		return "BankAcc [accNo=" + accNo + ", accNm=" + accNm + ", accBal=" + accBal + ", getClass()=" + getClass()
 				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
+	
+
 }
