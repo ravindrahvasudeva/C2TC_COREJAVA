@@ -3,7 +3,7 @@ package com.tns.framework;
 public abstract class SavingAcc  extends BankAcc{
 	
 	private boolean isSalary;
-	private static final float creditLimit=15000;
+	private static final float creditLimit=17000;
 	
 	public SavingAcc(int accNo, String accNm, float accBal, boolean isSalary) {
 		super(accNo, accNm, accBal);
