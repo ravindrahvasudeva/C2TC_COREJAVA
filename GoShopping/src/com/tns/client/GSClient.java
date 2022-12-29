@@ -10,7 +10,7 @@ public class GSClient {
 		GSShopFactory factory=new GSShopFactory();
 		GSNormalAcc gsn=(GSNormalAcc)factory.getNewNormalAccount(1212, "Vasudeva ", 600.00f);
 		gsn.bookProduct(gsn.getCharges());
-		GSPrimeACC gsp=(GSPrimeACC) factory.getNewPrimeAccount(12122, "Ravindra hv", 500.00f, true);
+		GSPrimeACC gsp=(GSPrimeACC) factory.getNewPrimeAccount(12122, "Ravindra ", 500.00f, true);
 		gsp.bookProduct(gsp.getCharges());
 	}
 
