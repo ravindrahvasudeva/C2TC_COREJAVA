@@ -1,5 +1,5 @@
 package com.tns.client;
-
+//client 
 import com.tns.application.GSNormalAcc;
 import com.tns.application.GSPrimeACC;
 import com.tns.application.GSShopFactory;
