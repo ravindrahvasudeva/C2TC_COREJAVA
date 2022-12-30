@@ -1,5 +1,5 @@
 package com.tns.framework;
-
+//noraml acc
 public abstract class NormalAcc  extends ShopAcc{
 	private final float deliveryCharge=50;
 	public NormalAcc(int accNo, String accNm, float charges) {
