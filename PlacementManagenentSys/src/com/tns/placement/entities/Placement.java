@@ -11,6 +11,7 @@ import java.sql.Date;
 
 @Entity
 @Table(name="placement")
+//placement
 public class Placement implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@Id

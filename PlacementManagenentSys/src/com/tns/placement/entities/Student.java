@@ -1,6 +1,7 @@
 package com.tns.placement.entities;
 
 import java.io.Serializable;
+//student
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
