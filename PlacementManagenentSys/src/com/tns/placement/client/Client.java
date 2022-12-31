@@ -1,6 +1,6 @@
 package com.tns.placement.client;
 
-
+//client 
 import com.tns.placement.entities.College;
 import com.tns.placement.entities.Placement;
 import com.tns.placement.entities.Student;
