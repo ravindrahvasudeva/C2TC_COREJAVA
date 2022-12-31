@@ -3,7 +3,7 @@ package com.tns.placement.repository;
 import javax.persistence.EntityManager;
 
 import com.tns.placement.entities.Student;
-
+//impl part
 
 public class StudentRepoImpl implements StudentRepo{
 	private EntityManager entityManager;

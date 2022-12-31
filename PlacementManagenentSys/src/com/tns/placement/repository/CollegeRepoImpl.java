@@ -5,7 +5,7 @@ import javax.persistence.EntityManager;
 import com.cg.jpacrudop.dao.JPAUtil;
 import com.tns.placement.entities.College;
 import com.tns.placement.entities.Placement;
-
+//impl part
 public class CollegeRepoImpl  implements CollegeRepo{
 
 	private EntityManager entityManager;

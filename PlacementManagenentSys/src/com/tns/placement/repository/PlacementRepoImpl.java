@@ -4,7 +4,7 @@ import javax.persistence.EntityManager;
 
 import com.tns.placement.entities.Placement;
 
-
+//impl part
 public class PlacementRepoImpl implements PlacementRepo {
 	private EntityManager entityManager;
 	public PlacementRepoImpl() {
