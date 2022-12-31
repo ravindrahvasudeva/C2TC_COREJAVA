@@ -3,7 +3,7 @@ package com.tns.placement.service;
 import com.tns.placement.entities.Placement;
 import com.tns.placement.repository.PlacementRepo;
 import com.tns.placement.repository.PlacementRepoImpl;
-
+//impl part
 public  class PlacementServiceImpl implements PlacementService {
 	private PlacementRepo repo;
 	public PlacementServiceImpl()

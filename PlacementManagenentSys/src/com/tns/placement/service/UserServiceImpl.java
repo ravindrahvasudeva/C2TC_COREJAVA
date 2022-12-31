@@ -3,7 +3,7 @@ package com.tns.placement.service;
 import com.tns.placement.entities.User;
 import com.tns.placement.repository.UserRepo;
 import com.tns.placement.repository.UserRepoImpl;
-
+//impl part
 
 public class UserServiceImpl implements UserService {
 	private UserRepo repo;

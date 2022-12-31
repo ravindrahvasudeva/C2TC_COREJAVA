@@ -4,7 +4,7 @@ import com.tns.placement.entities.College;
 import com.tns.placement.entities.Placement;
 import com.tns.placement.repository.CollegeRepo;
 import com.tns.placement.repository.CollegeRepoImpl;
-
+//impl part
 public class CollegeServiceImpl  implements CollegeService{
 	private CollegeRepo repo;
 	public CollegeServiceImpl()

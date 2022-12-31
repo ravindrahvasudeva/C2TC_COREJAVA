@@ -3,7 +3,7 @@ package com.tns.placement.service;
 import com.tns.placement.entities.Student;
 import com.tns.placement.repository.StudentRepo;
 import com.tns.placement.repository.StudentRepoImpl;
-
+//impl part
 public class StudentServiceImpl implements StudentService{
 
 	private StudentRepo repo;
